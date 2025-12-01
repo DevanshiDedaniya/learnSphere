@@ -6,13 +6,20 @@ LearnSphere is a full-stack Learning Management System built using the MERN stac
 🚀 Features
 
 User Authentication (JWT)
+
 Role-based Access: Student / Instructor
+
 Course Creation & Management
+
 Video Lessons & Resources
-Scure Payments (Stripe)
+
+Secure Payments (Stripe)
+
 Auto Enrollment via Webhooks
+
 PDF Certificate Generation (PDFKit)
-Cloud Storage for Certificates and videos (Cloudinary)
+
+Cloud Storage for Certificates (Cloudinary)
 
 
 🛠 Tech Stack
