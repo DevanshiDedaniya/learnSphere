@@ -1,0 +1,15 @@
+.payment-container {
+  @apply max-w-3xl mx-auto mt-10 p-6 bg-white shadow rounded-lg;
+}
+
+.payment-title {
+  @apply text-2xl font-bold text-blue-600 mb-4;
+}
+
+.payment-summary {
+  @apply text-gray-700 mb-6;
+}
+
+.payment-btn {
+  @apply btn-primary w-full font-medium;
+}

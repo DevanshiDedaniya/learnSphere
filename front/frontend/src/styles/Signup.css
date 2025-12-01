@@ -1,0 +1,35 @@
+.signup-container {
+  @apply flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-50 to-white;
+}
+
+.signup-card {
+  @apply w-full max-w-md bg-white p-6 rounded-2xl shadow-md;
+}
+
+.signup-title {
+  @apply text-2xl font-semibold text-center mb-4 text-blue-600;
+}
+
+.signup-form {
+  @apply space-y-4;
+}
+
+.input-field {
+  @apply w-full border border-gray-300 rounded-lg px-4 py-2 bg-white text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
+
+.role-select {
+  @apply flex justify-around items-center mt-2 mb-2;
+}
+
+.role-option {
+  @apply flex items-center gap-2 text-blue-700 font-medium;
+}
+
+.signup-btn {
+  @apply w-full bg-blue-600 text-white font-semibold py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200;
+}
+
+.error-text {
+  @apply text-red-500 text-sm text-center;
+}

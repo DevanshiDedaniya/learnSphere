@@ -1,0 +1,118 @@
+.profile-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  background: #f5f6fa;
+  min-height: 100vh;
+}
+
+.profile-box {
+  background: white;
+  width: 90%;
+  max-width: 550px;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.profile-image-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4f46e5;
+}
+
+.profile-info {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.profile-info h2 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.email {
+  color: #666;
+  font-size: 15px;
+}
+
+.role-badge {
+  background: #4f46e5;
+  color: white;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.info-box {
+  background: #eef0ff;
+  padding: 18px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.info-box h3 {
+  margin-bottom: 10px;
+  color: #4f46e5;
+  font-size: 18px;
+}
+
+.edit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #4f46e5;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-form label {
+  display: block;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.edit-form input,
+.edit-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 4px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.save-btn {
+  width: 48%;
+  background: #22c55e;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}
+
+.cancel-btn {
+  width: 48%;
+  background: #ef4444;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+}

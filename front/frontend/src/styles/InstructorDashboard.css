@@ -1,0 +1,52 @@
+.dashboard-container {
+  padding: 30px;
+  background: #f9fafb;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.dashboard-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2bad56;
+}
+
+.create-btn {
+  background: #13712c;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.create-btn:hover {
+  background: #4338ca;
+}
+
+.no-courses-text {
+  font-size: 1rem;
+  color: #6b7280;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.courses-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+}
+
+.loading-text {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1.1rem;
+}

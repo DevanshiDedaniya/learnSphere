@@ -1,0 +1,215 @@
+.course-detail-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: left; /* <-- ✅ Forces content left */
+}
+
+/* ✅ Large Colored Course Title (Left Aligned) */
+.course-detail-container h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #2563eb;
+  margin-bottom: 12px;
+}
+
+/* Description text */
+.course-detail-container p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+/* Course Image */
+.course-thumb {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 18px 0;
+}
+
+/* Course Information Block */
+.course-meta {
+  background: #f8fafc;
+  padding: 16px;
+  border-radius: 10px;
+  margin-top: 16px;
+  border-left: 4px solid #2563eb;
+}
+.course-meta p {
+  margin: 6px 0;
+  font-size: 1rem;
+  color: #222;
+}
+
+/* Module Box */
+.module-card {
+  margin-top: 28px;
+  padding: 16px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+}
+
+.module-card h4 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 6px;
+}
+
+/* Lesson Card */
+.lesson-card {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  background: #f9fafb;
+  border-left: 4px solid #22c55e;
+}
+
+.lesson-card h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #15803d;
+}
+
+.course-detail-container h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ba30c6; /* Purple accent (you can change color) */
+  margin-top: 32px;
+  margin-bottom: 14px;
+  border-left: 6px solid #ba30c6;
+  padding-left: 10px;
+}
+
+.course-detail-container h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #176929; /* Purple accent (you can change color) */
+  margin-top: 32px;
+  margin-bottom: 14px;
+  border-left: 6px solid #176929;
+  padding-left: 10px;
+}
+
+.enroll-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px 0;
+  transition: background-color 0.2s ease;
+}
+
+.enroll-btn:hover {
+  background-color: #0056b3;
+}
+
+.enroll-btn.enrolled {
+  background-color: #28a745;
+  cursor: default;
+}
+.course-action-top {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+}
+
+.rate-course {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.rate-course .stars {
+  margin-top: 8px;
+  display: flex;
+  gap: 5px;
+}
+
+.rate-course .star {
+  font-size: 2rem;
+  color: #ccc;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.rate-course .star.active {
+  color: #FFD700; /* gold */
+}
+
+.rate-course .star:hover {
+  transform: scale(1.2);
+}
+
+.submit-rating-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.submit-rating-btn:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.submit-rating-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.instructor-issue-section {
+  margin-top: 30px;
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.enrollment-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.issue-btn {
+  background-color: #22c55e;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.issue-btn:hover {
+  background-color: #16a34a;
+}
+
+.not-completed {
+  color: #888;
+  font-size: 14px;
+}
+
+
+
+
+

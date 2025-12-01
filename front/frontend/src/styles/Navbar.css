@@ -1,0 +1,19 @@
+.navbar {
+  @apply bg-blue-300 shadow-sm sticky top-0 z-50;
+}
+
+.nav-container {
+  @apply max-w-7xl mx-auto px-6 py-3 flex justify-between items-center;
+}
+
+.logo {
+  @apply text-2xl font-bold text-blue-600;
+}
+
+.nav-links a {
+  @apply text-gray-700 mx-3 hover:text-blue-600 transition;
+}
+
+.login-btn {
+  @apply border border-blue-600 text-blue-600 px-3 py-1 rounded-lg hover:bg-blue-600 hover:text-white;
+}

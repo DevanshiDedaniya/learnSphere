@@ -1,0 +1,27 @@
+.login-container {
+  @apply flex justify-center items-center min-h-screen bg-gradient-to-br from-blue-50 to-white;
+}
+
+.login-card {
+  @apply w-full max-w-md bg-white p-6 rounded-2xl shadow-md;
+}
+
+.login-title {
+  @apply text-2xl font-semibold text-center mb-4 text-blue-600;
+}
+
+.login-form {
+  @apply space-y-4;
+}
+
+.input-field {
+  @apply w-full border border-gray-300 rounded-lg px-4 py-2 bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-400 placeholder-gray-500;
+}
+
+.error-text {
+  @apply text-red-500 text-sm text-center;
+}
+
+.login-btn {
+  @apply w-full bg-blue-600 text-white font-semibold py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200;
+}

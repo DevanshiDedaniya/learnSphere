@@ -1,0 +1,24 @@
+.course-list-container {
+  @apply max-w-7xl mx-auto py-10 px-4;
+}
+
+.course-list-title {
+  @apply text-3xl font-semibold mb-6 text-blue-600;
+}
+
+.course-list-grid {
+  @apply grid md:grid-cols-2 lg:grid-cols-3 gap-6;
+}
+
+/* 🔍 Compact search bar */
+.search-bar {
+  @apply flex items-center gap-2 mb-6 justify-end;
+}
+
+.search-input {
+  @apply border border-gray-300 rounded-md px-3 py-1.5 w-48 text-sm text-gray-900 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition;
+}
+
+.search-button {
+  @apply bg-blue-600 text-white text-sm px-3 py-1.5 rounded-md hover:bg-blue-700 transition;
+}
