@@ -1,26 +1,55 @@
-#📚 LearnSphere – MERN Learning Management System
+# 📚 LearnSphere – MERN Learning Management System
 
-LearnSphere is a full-stack Learning Management System built using the MERN stack. Students can enroll in courses, track progress, and download certificates. Instructors can create and manage courses, upload content, and monitor student activity.
+LearnSphere is a full-featured Learning Management System built using the **MERN stack**.  
+It provides role-based access for students and instructors, online payments, video learning, course progress tracking, and auto-generated certificates.
 
+---
 
-##🚀 Features
+## 🚀 Features
 
--User Authentication (JWT)
+### 👨‍🎓 Student Features
+- Browse and enroll in courses
+- Make secure payments using Stripe
+- Watch video lessons
+- Track course progress
+- Download completion certificates
+- Rate courses
 
--Role-based Access: Student / Instructor
+### 👨‍🏫 Instructor Features
+- Create and manage courses
+- Upload thumbnails, modules & video lessons
+- Track total students
+- Manage updates and course details
 
--Course Creation & Management
+### ⚙️ System Features
+- JWT authentication
+- Role-based authorization
+- Stripe webhook integration
+- Cloudinary media uploads
+- PDFKit certificate generation
+- Error handling middleware
 
--Video Lessons & Resources
+---
 
--Secure Payments (Stripe)
+## 🛠 Tech Stack
 
--Auto Enrollment via Webhooks
+### **Frontend**
+- React
+- Redux Toolkit
+- React Router
+- Tailwind CSS
 
--PDF Certificate Generation (PDFKit)
+### **Backend**
+- Node.js
+- Express.js
+- MongoDB + Mongoose
 
--Cloud Storage for Certificates (Cloudinary)
+### **Integrations**
+- Stripe Payment Gateway
+- Cloudinary File Storage
+- PDFKit for certificates
 
+---
 
 ##🛠 Tech Stack
 
