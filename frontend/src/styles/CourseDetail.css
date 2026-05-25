@@ -1,0 +1,214 @@
+.course-detail-container {
+  @apply max-w-6xl mx-auto my-10 px-4 md:px-6;
+}
+
+.course-detail-shell {
+  @apply bg-white border border-gray-200 rounded-3xl overflow-hidden;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08);
+}
+
+.course-hero {
+  @apply relative;
+}
+
+.course-thumb {
+  @apply w-full h-[260px] md:h-[380px] object-cover;
+}
+
+.course-detail-body {
+  @apply p-6 md:p-8;
+}
+
+.course-detail-container h1 {
+  @apply text-3xl md:text-4xl text-gray-900 mb-3 tracking-tight;
+}
+
+.course-detail-container > p,
+.course-description-text {
+  @apply text-base text-gray-600 leading-7 mb-6;
+}
+
+.course-meta {
+  @apply grid md:grid-cols-2 gap-4 bg-gray-50 border border-gray-200 rounded-2xl p-5 mb-8;
+}
+
+.course-meta p {
+  @apply text-sm md:text-base text-gray-700 mb-0;
+}
+
+.course-meta b {
+  @apply text-gray-900;
+}
+
+.skills-section,
+.tags-section,
+.rate-course,
+.payment-form,
+.module-card {
+  @apply mt-8;
+}
+
+.course-detail-container h2 {
+  @apply text-2xl md:text-3xl text-gray-900 mt-10 mb-5;
+}
+
+.course-detail-container h3 {
+  @apply text-xl md:text-2xl text-gray-900 mb-4;
+}
+
+.skills-section ul {
+  @apply grid sm:grid-cols-2 gap-3 mt-4;
+}
+
+.skills-section li {
+  @apply bg-emerald-50 text-emerald-800 border border-emerald-100 rounded-xl px-4 py-3 text-sm font-medium;
+}
+
+.tags-container {
+  @apply flex flex-wrap gap-3 mt-3;
+}
+
+.tag-item {
+  @apply inline-flex items-center rounded-full bg-amber-50 text-amber-700 border border-amber-200 px-4 py-1.5 text-sm font-medium;
+}
+
+.enroll-btn {
+  @apply inline-flex items-center justify-center rounded-xl px-6 py-3 text-sm md:text-base font-semibold text-white border-0 transition-all duration-200;
+  background: linear-gradient(135deg, #047857, #065f46);
+}
+
+.enroll-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(6, 95, 70, 0.18);
+}
+
+.enroll-btn.enrolled {
+  background: linear-gradient(135deg, #16a34a, #15803d);
+  cursor: default;
+  box-shadow: none;
+}
+
+.course-action-top {
+  @apply absolute top-5 right-5;
+}
+
+.rate-course {
+  @apply bg-white border border-gray-200 rounded-2xl p-5;
+}
+
+.rate-course h4 {
+  @apply text-lg font-semibold text-gray-900 mb-3;
+}
+
+.rate-course .stars {
+  @apply flex gap-2 mt-2 mb-4;
+}
+
+.rate-course .star {
+  @apply text-4xl text-gray-300 cursor-pointer transition-all duration-200;
+}
+
+.rate-course .star.active {
+  color: #fbbf24;
+}
+
+.rate-course .star:hover {
+  transform: scale(1.12);
+}
+
+.submit-rating-btn {
+  @apply inline-flex items-center justify-center rounded-xl px-5 py-2.5 text-sm font-semibold text-white border-0 transition-all duration-200;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+}
+
+.submit-rating-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.2);
+}
+
+.submit-rating-btn:disabled {
+  @apply bg-gray-300 text-white cursor-not-allowed;
+  box-shadow: none;
+}
+
+.payment-form {
+  @apply mt-6 border border-gray-200 rounded-2xl p-5 bg-gray-50;
+}
+
+.payment-form .StripeElement {
+  @apply bg-white border border-gray-300 rounded-xl px-4 py-4;
+}
+
+.payment-form button {
+  @apply mt-4 inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-semibold text-white border-0 transition-all duration-200;
+  background: linear-gradient(135deg, #7c3aed, #6d28d9);
+}
+
+.payment-form button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(109, 40, 217, 0.2);
+}
+
+.payment-form button:disabled {
+  @apply bg-gray-300 cursor-not-allowed;
+  box-shadow: none;
+}
+
+.module-card {
+  @apply bg-white border border-gray-200 rounded-2xl p-6;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+}
+
+.module-card + .module-card {
+  @apply mt-6;
+}
+
+.module-card h4 {
+  @apply text-xl font-semibold text-gray-900 mb-2;
+}
+
+.module-card > p {
+  @apply text-gray-600 leading-7 mb-4;
+}
+
+.lesson-card {
+  @apply mt-4 rounded-2xl border border-gray-200 bg-gray-50 p-5;
+}
+
+.lesson-card h5 {
+  @apply text-lg font-semibold text-emerald-700 mb-2;
+}
+
+.lesson-card p {
+  @apply text-sm md:text-base text-gray-600 leading-6 mb-2;
+}
+
+.lesson-card video {
+  @apply w-full rounded-xl mt-3 border border-gray-200 bg-black;
+}
+
+.instructor-issue-section {
+  @apply mt-10 bg-gray-50 border border-gray-200 rounded-2xl p-6;
+}
+
+.enrollment-row {
+  @apply flex flex-col md:flex-row md:items-center md:justify-between gap-4 bg-white border border-gray-200 rounded-xl p-4 mb-3;
+}
+
+.issue-btn {
+  @apply inline-flex items-center justify-center rounded-xl px-4 py-2.5 text-sm font-semibold text-white border-0 transition-all duration-200;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+}
+
+.issue-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(34, 197, 94, 0.18);
+}
+
+.not-completed {
+  @apply text-sm text-gray-500;
+}
+
+hr {
+  @apply border-0 h-px bg-gray-200 my-8;
+}

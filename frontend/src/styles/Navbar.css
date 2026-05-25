@@ -1,0 +1,28 @@
+.navbar {
+  @apply bg-white sticky top-0 z-50 border-b border-gray-200;
+}
+
+.nav-container {
+  @apply max-w-7xl mx-auto w-full px-6 py-3 flex items-center;
+}
+
+.nav-logo {
+  @apply flex items-center;
+}
+
+.logo {
+  @apply text-4xl font-bold text-blue-900 tracking-wide;
+}
+
+.nav-links {
+  @apply ml-auto flex items-center gap-6;
+}
+
+.nav-links a,
+.nav-links button {
+  @apply text-black font-medium transition-colors duration-200 hover:text-emerald-600;
+}
+
+.profile-icon {
+  @apply text-black hover:text-emerald-600 transition-colors duration-200;
+}

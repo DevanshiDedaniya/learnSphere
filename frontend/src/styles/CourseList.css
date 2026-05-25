@@ -1,0 +1,51 @@
+.course-list-container {
+  @apply max-w-7xl mx-auto py-10 px-4 md:px-6;
+}
+
+.course-list-header {
+  @apply flex flex-col md:flex-row md:items-center md:justify-between gap-5 mb-8;
+}
+
+.course-list-subtitle {
+  @apply text-sm font-medium text-emerald-600 mb-1 tracking-wide;
+}
+
+.course-list-title {
+  @apply text-3xl md:text-4xl font-bold text-gray-900 tracking-tight;
+}
+
+.course-list-grid {
+  @apply grid sm:grid-cols-2 xl:grid-cols-3 gap-6;
+}
+
+.search-bar {
+  @apply flex items-center w-full md:w-auto gap-3;
+}
+
+.search-input {
+  @apply w-full md:w-72 rounded-xl border border-gray-200 bg-white px-4 py-3
+  text-sm text-gray-900 placeholder:text-gray-400
+  focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500
+  transition-all duration-200;
+}
+
+.search-button {
+  @apply rounded-xl bg-emerald-700 text-white px-5 py-3 text-sm font-medium
+  hover:bg-emerald-800 transition-colors duration-200;
+}
+
+.loading-text {
+  @apply text-center text-gray-500 mt-16 text-base;
+}
+
+.empty-state {
+  @apply rounded-2xl border border-gray-200 bg-gray-50 py-16 px-6 text-center;
+}
+
+.empty-title {
+  @apply text-xl font-semibold text-gray-800 mb-2;
+}
+
+.empty-text {
+  @apply text-sm text-gray-500;
+}

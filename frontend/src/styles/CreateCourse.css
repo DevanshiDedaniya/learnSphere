@@ -1,0 +1,94 @@
+/* WRAPPER */
+.create-course-container {
+  @apply max-w-5xl mx-auto px-4 py-10 md:px-6;
+}
+
+/* MAIN CARD */
+.create-course-box {
+  @apply bg-white border border-gray-200 rounded-3xl p-6 md:p-8;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08);
+}
+
+/* HEADER */
+.create-course-header {
+  @apply mb-8;
+}
+
+.create-course-subtitle {
+  @apply text-sm font-medium text-emerald-600 mb-1 tracking-wide;
+}
+
+.create-course-title {
+  @apply text-3xl md:text-4xl font-bold text-gray-900 tracking-tight;
+}
+
+/* FORM */
+.create-form {
+  @apply space-y-6;
+}
+
+/* INPUT FIELDS */
+.input-field {
+  @apply w-full rounded-xl border border-gray-300 px-4 py-3 text-sm text-gray-900
+  focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500
+  transition-all duration-200;
+}
+
+textarea.input-field {
+  @apply min-h-28 resize-none;
+}
+
+/* FILE INPUT */
+.file-input {
+  @apply w-full rounded-xl border border-gray-300 px-4 py-3 bg-gray-50 text-sm;
+}
+
+/* SECTION TITLE */
+.section-title {
+  @apply text-xl font-semibold text-gray-900 mt-8 mb-3;
+}
+
+/* MODULE CARD */
+.module-card {
+  @apply bg-gray-50 border border-gray-200 rounded-2xl p-5 space-y-4;
+}
+
+.module-header {
+  @apply flex items-center justify-between;
+}
+
+.module-title {
+  @apply text-lg font-semibold text-emerald-700;
+}
+
+/* LESSON CARD */
+.lesson-card {
+  @apply bg-white border border-gray-200 rounded-xl p-4 space-y-3;
+}
+
+/* BUTTONS */
+.add-btn {
+  @apply text-sm font-medium text-blue-600 hover:underline;
+}
+
+.remove-btn {
+  @apply text-sm text-red-500 hover:underline;
+}
+
+.primary-btn {
+  @apply inline-flex items-center justify-center rounded-xl px-6 py-3 text-white font-semibold
+  bg-emerald-700 hover:bg-emerald-800 transition-all duration-200;
+}
+
+.secondary-btn {
+  @apply bg-gray-200 px-3 py-1 rounded-md text-sm hover:bg-gray-300;
+}
+
+/* FOOTER */
+.form-footer {
+  @apply flex items-center gap-4 mt-6;
+}
+
+.duration-text {
+  @apply ml-auto text-sm text-gray-600;
+}

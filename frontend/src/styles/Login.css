@@ -1,0 +1,65 @@
+.login-container {
+  @apply flex justify-center items-center min-h-screen 
+  bg-white;
+}
+
+.login-card {
+  @apply w-full max-w-md 
+  bg-gray-200 
+  p-8 rounded-2xl 
+  border border-gray-400/20;
+
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.25),
+    0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.login-title {
+  @apply text-3xl font-bold text-center mb-6 
+  text-transparent bg-clip-text 
+  bg-blue-500 
+  tracking-tight;
+}
+
+.login-subtitle {
+  @apply text-sm text-black text-center mb-4;
+}
+
+.login-form {
+  @apply space-y-5;
+}
+
+.input-group {
+  @apply flex flex-col gap-1;
+}
+
+.input-label {
+  @apply text-sm font-medium text-emerald-200;
+}
+
+.input-field {
+  @apply w-full border border-emerald-400/30 rounded-lg px-4 py-2.5 
+  bg-white/10 text-white placeholder-emerald-300
+  focus:outline-none focus:ring-2 focus:ring-yellow-400 
+  focus:border-yellow-400 transition-all duration-200;
+}
+
+.error-text {
+  @apply text-red-400 text-sm text-center;
+}
+
+.login-btn {
+  @apply w-full 
+  bg-blue-600 
+  text-black font-semibold py-2.5 rounded-lg 
+  shadow-lg hover:shadow-blue-500/30 
+  hover:scale-[1.02] transition-all duration-200;
+}
+
+.extra-links {
+  @apply flex justify-between text-sm text-black mt-2;
+}
+
+.extra-links a {
+  @apply hover:text-yellow-400 transition-colors;
+}
